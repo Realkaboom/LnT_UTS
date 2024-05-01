@@ -1,0 +1,180 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e7e4e4d7;
+    overflow: hidden;
+}
+.countainer{
+    background-color: #dc7332;
+    width: 100%;
+    height: 10%;
+}
+
+#navid{
+    height: 75px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    background-color: #e5e5e5;
+}
+
+.nav{
+    position: relative;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(170, 33, 33);
+    font-size: 30px;
+}
+
+#Tulisan{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    width: fit-content; /* Adjust width to fit content */
+    margin: 0 auto; /* Center the div horizontally */
+}
+
+.containerr{
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+.container h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact-info p{
+    margin: 5px 0;
+}
+
+  
+@media screen and (max-width: 768px){
+    .container {
+      width: 90%;
+    }
+}
+
+#Event-menu{
+    background-color: #ffffffbe;
+    width: 100%;
+    height: 10%;
+}
+
+#nav-event{
+    height: 100px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventnav{
+    position: relative;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(170, 33, 33);
+    font-size: 30px;
+}
+
+.posisi{
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.rangkaian{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rangkaian th, .rangkaian td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.rangkaian th{
+    background-color: #f2f2f2;
+}
+
+
+.timeline{
+    padding: 20px;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.event{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.event-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-description{
+    display: none;
+}
+
+.event.active .event-description{
+    display: block;
+}
+
+.form-container {
+  width: 300px; 
+  padding: 150px; 
+  margin: 0 auto; 
+  border: 1px solid #ccc;
+}
+
+#error-message {
+  color: red;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-slide {
+  display: flex;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
